@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=SlideShow
+Exec=/home/pi/SlideShow.sh
+Type=Application
+Icon=gpicview
