@@ -68,9 +68,16 @@ rm xbindkeys.temp # dump the file
 * --image-bg black : Use style as background for transparent image parts and the like. Accepted values: checks, white, black. The default for windowed mode is checks, while fullscreen defaults to black.
 
 ## Add new shortcut in menu:
-Create shorcut file and edit wit with nano:
+Create shorcut file and edit it with nano. File path differ depending on linux distribution.
+
+For Ubuntu Mate:
 ```bash
 nano /home/pi/.local/share/applications/fehslideshow.desktop
+```
+For Raspbian:
+```bash
+nano /usr/share/applications/fehslideshow.desktop
+
 ```
 
 Paste this content to file:
